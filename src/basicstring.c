@@ -1,4 +1,4 @@
-#include <Cstring.h>
+#include <basicstring.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -27,6 +27,10 @@ void string_append(const char *s, string_t *str) {
     }
     strcat(str->str, s);
     str->size = strlen(str->str);
+}
+
+int string_compare(string_t *s1, string_t *s2) {
+    return strcmp(s1->str, s2->str);
 }
 
 void string_putc(char c, string_t *str) {
