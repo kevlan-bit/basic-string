@@ -17,7 +17,7 @@ int string_new(const char *s, string_t **str) {
     return 0;
 }
 
-void string_append(const char *s, string_t *str) {
+void string_concat(const char *s, string_t *str) {
     if (str->capacity-1 < strlen(s)) {
         if (str->capacity*2 < strlen(s)) {
             str->capacity += strlen(s);
@@ -46,4 +46,12 @@ void string_putc(char c, string_t *str) {
 void string_free(string_t *str) {
     free(str->str);
     free(str);
+}
+
+char *string_gets(string_t *s) {
+    return s->str;
+}
+
+size_t string_len(string_t *s) {
+    return strlen(s->str);
 }

@@ -7,7 +7,7 @@ int main() {
         printf("basic-string memory error\n");
         return 1;
     }
-    string_append(" teste", str);
+    string_concat(" teste", str);
     printf("%s\n", str->str);
     string_free(str);
     return 0;

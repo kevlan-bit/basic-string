@@ -1,0 +1,12 @@
+### basic-string library
+```
+basic-string is a library that provides strings for the C language in a basic way. No useless or heavy features, just what is necessary.
+
+This project is licensed under the Apache License 2.0. See the LICENSE file for details.
+```
+### examples
+See the [examples](examples/) for examples.
+
+### LOUVADO SEJA DEUS ✝️
+"Porque eu bem sei os pensamentos que penso de vós, diz o Senhor; pensamentos de paz e não de mal, para vos dar o fim que esperais."
+- Jeremias 29:11

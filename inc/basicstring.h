@@ -10,8 +10,10 @@ typedef struct {
 
 int string_new(const char *s, string_t **str);
 void string_free(string_t *str);
-void string_append(const char *s, string_t *str);
+void string_concat(const char *s, string_t *str);
 int string_compare(string_t *s1, string_t *s2);
 void string_putc(char c, string_t *str);
+char* string_gets(string_t *s);
+size_t string_len(string_t *s);
 
 #endif
