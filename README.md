@@ -1,6 +1,8 @@
 <h1 align="center">basic-string library</h1>
-![Language](https://img.shields.io/badge/language-C-blue)
-![Status](https://img.shields.io/badge/status-WIP-yellow)
+<p align="center">
+  <img src="https://img.shields.io/badge/language-C-blue">
+  <img src="https://img.shields.io/badge/status-WIP-yellow">
+</p>
 <p align="center">basic-string is a library that provides strings for the C language in a basic way. No useless or heavy features, just what is necessary.</p>
 <p align="center">This project is licensed under the Apache License 2.0. See the LICENSE file for details.</p>
 
