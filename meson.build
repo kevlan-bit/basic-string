@@ -1,4 +1,8 @@
-project('basicstring', 'c')
+project(
+    'basicstring',
+    'c',
+    version : '0.0.1'
+)
 
 src = files('src/basicstring.c')
 inc = include_directories('inc')
